@@ -126,7 +126,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_ROOT = r'//home/zero/Desktop/Github/Ituka/website/Web_Site/Web_App/static/Web_App'
+STATIC_ROOT = r'/home/zero/Desktop/Github/Ituka/website/Web_Site/Web_App/static/Web_App'
 # Change first part of this path on Your path to the /WEB folder,
 # for linux change slash '\' to '/'
 STATIC_URL = '/static/'

@@ -4,6 +4,14 @@ body { /* parent */
     background-image: linear-gradient(to bottom, #333, black);
     width: 100%; height: auto;
 }
+
+body #bodyParagraphs {
+
+    color: white;
+    margin-bottom: 50%;
+
+
+}
 .element { /* body */
     float: left;
     width: 25%;
@@ -73,3 +81,9 @@ body { /* parent */
 .active {
     background-image: linear-gradient(to right, #333, black);
 */}
+
+footer p {
+
+    color: white;
+
+}
