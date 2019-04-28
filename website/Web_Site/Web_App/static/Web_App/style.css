@@ -49,9 +49,6 @@ body { /* parent */
   font-size: 17px;
   display: block;
 
-
-
-
 }
 
 /* Style the hamburger menu */
@@ -75,7 +72,4 @@ body { /* parent */
 /* Style the active link (or home/logo) */
 .active {
     background-image: linear-gradient(to right, #333, black);
-
-
-  /*background-color: #333;
 */}
