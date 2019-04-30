@@ -26,3 +26,15 @@ def accounts(request):
         print("Login Unsuccessful")
 
 
+def search(request):
+    query_string = ''
+    found_entries = None
+    if ('q' in request.GET) and request.GET['q'].strip():
+        query_string = request.GET['q']
+        entry_query = utils.get_query(query_string, ['title', 'body',])
+        posts = Post.objects.filter(entry_query).order_by('created')
+        return render(request, 'search.html', { 'query_string': query_string, 'posts': posts })
+    else:
+        return render(request, 'search.html', { 'query_string': 'Null', 'found_entries': 'Enter a search term' })
+
+
