@@ -57,6 +57,7 @@ body #bodyParagraphs {
   font-size: 17px;
   display: block;
 
+
 }
 
 /* Style the hamburger menu */
@@ -80,10 +81,6 @@ body #bodyParagraphs {
 /* Style the active link (or home/logo) */
 .active {
     background-image: linear-gradient(to right, #333, black);
+
+  /*background-color: #333;
 */}
-
-footer p {
-
-    color: white;
-
-}
