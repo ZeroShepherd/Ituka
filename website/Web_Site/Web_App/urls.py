@@ -20,8 +20,15 @@ from django.conf.urls import url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from . import views
 
+
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^home$', views.home, name='home'),
+    url(r'^about$', views.about, name='about'),
+    url(r'^accounts$', views.accounts, name='accounts'),
+    url(r'^search$', views.search, name="search")
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += staticfiles_urlpatterns()
+
+
+

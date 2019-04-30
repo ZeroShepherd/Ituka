@@ -56,10 +56,10 @@ ROOT_URLCONF = 'Web_Site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, r'/home/zero/PycharmProjects/Ituka/website/Web_Site/Web_SiteTemps'),
+        'DIRS': [os.path.join(BASE_DIR, r'/home/zero/Desktop/Github/Ituka/website/Web_Site/Web_SiteTemps'),
 # Change first part of this path on Your path to the /WEB folder,
 # for linux change slash '\' to '/'
-                 os.path.join(BASE_DIR, r'/home/zero/PycharmProjects/Ituka/website/Web_Site/Web_App/Web_AppTemps')],
+                 os.path.join(BASE_DIR, r'/home/zero/Desktop/Github/Ituka/website/Web_Site/Web_App/Web_AppTemps')],
 # Change first part of this path on Your path to the /WEB folder,
 # for linux change slash '\' to '/'
         'APP_DIRS': True,
@@ -126,11 +126,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_ROOT = r'/home/zero/PycharmProjects/Ituka/website/Web_Site/Web_App/static/Web_App'
+STATIC_ROOT = r'/home/zero/Desktop/Github/Ituka/website/Web_Site/Web_App/static/Web_App'
 # Change first part of this path on Your path to the /WEB folder,
 # for linux change slash '\' to '/'
 STATIC_URL = '/static/'
-MEDIA_ROOT = r'/home/zero/PycharmProjects/Ituka/website/Web_Site/Web_App/media/Web_App'
+MEDIA_ROOT = r'/home/zero/Desktop/Github/Ituka/website/Web_Site/Web_App/media/Web_App'
 # Change first part of this path on Your path to the /WEB folder,
 # for linux change slash '\' to '/'
 MEDIA_URL = '/media/'
