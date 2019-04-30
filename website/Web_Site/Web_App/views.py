@@ -2,6 +2,10 @@
 from __future__ import unicode_literals
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render
+import utils
+import requests
+
+
 
 
 # Create your views here.
